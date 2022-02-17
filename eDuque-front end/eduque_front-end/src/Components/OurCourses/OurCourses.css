@@ -1,0 +1,45 @@
+.Courseheader{
+    background-image: 
+            url(
+            "./image 23.png");
+            background-size: cover;
+            background-position: center center;
+            width: 100%;
+            height: 40vh;
+            visibility: inherit;
+            background-size: cover;
+            position:relative;
+            justify-content:center;
+            align-items:center;
+}
+@media screen and (max-width: 600px) {
+    .headings{
+        padding-top: 12%;
+        text-align: center;
+    }
+    .courseCard{
+        width: 100%;
+        margin-top: 6%;
+    }
+  }
+@media screen and (max-width: 2000px) and (min-width: 600px) {
+    .headings{
+        text-align: center;
+        padding-top: 5%;
+    }
+    .row{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .courseCard{
+        width: 30% !important;
+        height: auto !important;
+        margin-top: 6%;
+        margin-right: 3%;
+    }
+  }
+
+

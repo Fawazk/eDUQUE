@@ -1,0 +1,124 @@
+# Query: body
+# ContextLines: 1
+
+39 results - 4 files
+
+package-lock.json:body
+   3844      },
+   3845:     "node_modules/@types/body-parser": {
+   3846        "version": "1.19.2",
+   3847:       "resolved": "https://registry.npmjs.org/@types/body-parser/-/body-parser-1.19.2.tgz",
+   3848        "integrity": "sha512-ALYone6pm6QmwZoAgeyNksccT9Q4AWZQ6PvfwR37GT6r6FWUPguq6sUmNGSMV2Wr761oQoBxwGGa6DR5o1DC9g==",
+
+   3906        "dependencies": {
+   3907:         "@types/body-parser": "*",
+   3908          "@types/express-serve-static-core": "^4.17.18",
+
+   5271      },
+   5272:     "node_modules/body-parser": {
+   5273        "version": "1.19.1",
+   5274:       "resolved": "https://registry.npmjs.org/body-parser/-/body-parser-1.19.1.tgz",
+   5275        "integrity": "sha512-8ljfQi5eBk8EJfECMrgqNGWPEY5jWP+1IzkzkGdFFEwFQZZyaZ21UqdaHktgiMlH0xLHqIFtE/u2OYE5dOtViA==",
+
+   5284          "qs": "6.9.6",
+   5285:         "raw-body": "2.4.2",
+   5286          "type-is": "~1.6.18"
+
+   5291      },
+   5292:     "node_modules/body-parser/node_modules/bytes": {
+   5293        "version": "3.1.1",
+
+   5299      },
+   5300:     "node_modules/body-parser/node_modules/debug": {
+   5301        "version": "2.6.9",
+
+   5307      },
+   5308:     "node_modules/body-parser/node_modules/iconv-lite": {
+   5309        "version": "0.4.24",
+
+   5318      },
+   5319:     "node_modules/body-parser/node_modules/ms": {
+   5320        "version": "2.0.0",
+
+   7670          "array-flatten": "1.1.1",
+   7671:         "body-parser": "1.19.1",
+   7672          "content-disposition": "0.5.4",
+
+  13543      },
+  13544:     "node_modules/raw-body": {
+  13545        "version": "2.4.2",
+  13546:       "resolved": "https://registry.npmjs.org/raw-body/-/raw-body-2.4.2.tgz",
+  13547        "integrity": "sha512-RPMAFUJP19WIet/99ngh6Iv8fzAbqum4Li7AD6DtGaW2RpMB/11xDoalPiJMTbu6I3hkbMVkATvZrqb9EEqeeQ==",
+
+  13557      },
+  13558:     "node_modules/raw-body/node_modules/bytes": {
+  13559        "version": "3.1.1",
+
+  13565      },
+  13566:     "node_modules/raw-body/node_modules/iconv-lite": {
+  13567        "version": "0.4.24",
+
+  19195      },
+  19196:     "@types/body-parser": {
+  19197        "version": "1.19.2",
+  19198:       "resolved": "https://registry.npmjs.org/@types/body-parser/-/body-parser-1.19.2.tgz",
+  19199        "integrity": "sha512-ALYone6pm6QmwZoAgeyNksccT9Q4AWZQ6PvfwR37GT6r6FWUPguq6sUmNGSMV2Wr761oQoBxwGGa6DR5o1DC9g==",
+
+  19257        "requires": {
+  19258:         "@types/body-parser": "*",
+  19259          "@types/express-serve-static-core": "^4.17.18",
+
+  20314      },
+  20315:     "body-parser": {
+  20316        "version": "1.19.1",
+  20317:       "resolved": "https://registry.npmjs.org/body-parser/-/body-parser-1.19.1.tgz",
+  20318        "integrity": "sha512-8ljfQi5eBk8EJfECMrgqNGWPEY5jWP+1IzkzkGdFFEwFQZZyaZ21UqdaHktgiMlH0xLHqIFtE/u2OYE5dOtViA==",
+
+  20327          "qs": "6.9.6",
+  20328:         "raw-body": "2.4.2",
+  20329          "type-is": "~1.6.18"
+
+  22080          "array-flatten": "1.1.1",
+  22081:         "body-parser": "1.19.1",
+  22082          "content-disposition": "0.5.4",
+
+  26221      },
+  26222:     "raw-body": {
+  26223        "version": "2.4.2",
+  26224:       "resolved": "https://registry.npmjs.org/raw-body/-/raw-body-2.4.2.tgz",
+  26225        "integrity": "sha512-RPMAFUJP19WIet/99ngh6Iv8fzAbqum4Li7AD6DtGaW2RpMB/11xDoalPiJMTbu6I3hkbMVkATvZrqb9EEqeeQ==",
+
+public\index.html:
+  28    </head>
+  29:   <body>
+  30      <noscript>You need to enable JavaScript to run this app.</noscript>
+
+  36        You can add webfonts, meta tags, or analytics to this file.
+  37:       The build step will place the bundled scripts into the <body> tag.
+  38  
+
+  41      -->
+  42:   </body>
+  43  </html>
+
+src\Components\Courses\Courses.js:
+    3  import Table from '@mui/material/Table';
+    4: import TableBody from '@mui/material/TableBody';
+    5  import TableCell from '@mui/material/TableCell';
+
+  128                                  </TableHead>
+  129:                                 <TableBody>
+  130                                      {courseList && courseList.map((obj, index) => {
+
+  172                                      }
+  173:                                 </TableBody>
+  174                              </Table>
+
+src\Components\Login\login.js:
+  104                <Grid item xs>
+  105:                 <Link href="#" variant="body2">
+  106                    Forgot password?
+
+  109                <Grid item>
+  110:                 <Link onClick={() =>navigate('/register')} variant="body2">
+  111                    {"Don't have an account? Sign Up"}
